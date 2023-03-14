@@ -1,0 +1,28 @@
+<div class="container container-style">
+    <div><h5 class="login-head-style">Ride Details</h5></div>
+
+    <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Car</th>
+            <th>Seats Left</th>
+            <th>Pick-up Point</th>
+            <th>Destination</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+       <tr *ngFor="let rd of ridesDetails">
+          <td>{{ rd.id }}</td>
+            <td>{{ rd.name }}</td>
+            <td>{{ rd.car }}</td>
+            <td>{{ rd.seat }}</td>
+            <td>{{ rd.pickup }}</td>
+            <td>{{ rd.dest }}</td>
+            
+          </tr>
+        </tbody>
+      </table>
+</div>
