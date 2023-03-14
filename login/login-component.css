@@ -1,0 +1,56 @@
+.container-styles{
+	position: relative; 
+	top: 180px;
+	width:50%
+}
+
+.padding{
+  padding-bottom:0px;
+  margin-bottom:0px;
+}
+
+.link-underline{
+   color:#337ab7;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.container-style{
+    position: relative;
+    width: 25%;
+    top: 200px;
+    border: rgb(37, 172, 250) solid;
+    padding: 0px;
+    border-radius: 5px;
+}
+.header-style{
+    width:100%;
+    background-color:rgb(0, 184, 251);
+}
+.login-head-style{
+    background-color: rgb(40, 117, 251);
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin: auto;
+}
+.form-content{
+    margin: 20px 0px 20px 10px ;
+}
+.field{
+    width: 100%;
+}
+.form-heading{
+    padding: 10px 40px 10px 10px ;
+}
+.btn{
+    background-color: rgb(37, 115, 250);
+    color: white;
+
+}
+.btn:hover{
+    background-color:rgb(100, 154, 247) ;
+}
