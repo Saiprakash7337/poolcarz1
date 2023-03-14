@@ -1,0 +1,21 @@
+container-style{
+    position: relative;
+    width: 50%;
+    top: 200px;
+    border: rgb(37, 172, 250) solid;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.login-head-style{
+    background-color: rgb(40, 117, 251);
+    color: white;
+    padding: 10px 0px 10px 10px;
+    margin: auto;
+}
+
+tr,th,td{
+    text-align: center;
+    margin: 10%;
+}
+
